@@ -1,5 +1,5 @@
 import { Container, Text, VStack, Box, Heading, Button, Flex } from "@chakra-ui/react";
-import { FaTrophy, FaUsers, FaBattleNet, FaLevelUpAlt, FaTeddyBear } from "react-icons/fa";
+import { FaTrophy, FaUsers, FaBattleNet, FaLevelUpAlt, FaPaw } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -13,7 +13,7 @@ const Index = () => {
           <Heading as="h2" size="lg" mb={4}>Features</Heading>
           <VStack spacing={4} align="start">
             <Flex align="center">
-              <FaTeddyBear size="24px" />
+              <FaPaw size="24px" />
               <Text ml={2}>Character Development: Collect and customize teddy bears with unique aesthetics.</Text>
             </Flex>
             <Flex align="center">
