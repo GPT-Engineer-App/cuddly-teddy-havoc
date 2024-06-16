@@ -1,4 +1,5 @@
 import { Container, Text, VStack, Box, Heading, Button, Flex } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { FaTrophy, FaUsers, FaBattleNet, FaLevelUpAlt, FaPaw } from "react-icons/fa";
 
 const Index = () => {
@@ -34,7 +35,9 @@ const Index = () => {
             </Flex>
           </VStack>
         </Box>
-        <Button colorScheme="teal" size="lg" mt={6}>Start Your Adventure</Button>
+        <Link to="/character-creation">
+          <Button colorScheme="teal" size="lg" mt={6}>Start Your Adventure</Button>
+        </Link>
       </VStack>
     </Container>
   );
